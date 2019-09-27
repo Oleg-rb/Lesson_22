@@ -1,9 +1,22 @@
 <h2>Записаться</h2>
 
 <form action="/visit" method="POST">
+
   <div class="form-group">
     <label>Ваше имя</label>
     <input name="user_name" type="text" class="form-control" placeholder="Введите Ваше имя">
   </div>
+
+   <div class="form-group">
+    <label>Номер Вашего телефона</label>
+    <input name="phone" type="text" class="form-control" placeholder="Введите номер Вашего телефона">
+  </div>
+
+   <div class="form-group">
+    <label>Желаемые дата и время записи</label>
+    <input name="date_time" type="text" class="form-control" placeholder="Введите желаемые дату и время записи">
+  </div>
+
   <button type="submit" class="btn btn-primary">Записаться</button>
+
 </form>
